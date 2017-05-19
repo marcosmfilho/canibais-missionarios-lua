@@ -144,7 +144,7 @@ function buscaSolucao(estado)
         print('MISSIONÁRIOS SALVOS! UFA!')
         print(' ')
         print('ESTADO FINAL:')
-        print(estado)
+        print(table.tostring(estado))
         os.exit()
     else
         filhos = geraEstados(estado)
